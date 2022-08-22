@@ -9,7 +9,7 @@ function Header() {
     return (
         <header>
              <div className="container-header">
-                <Link to="/"><h2>Pic Some</h2></Link>
+                <Link to="/cart-shop"><h2>Pic Some</h2></Link>
                 <Link to="/cart">
                     <i className={`${cartClassName} ri-fw ri-2x`}></i>
                 </Link>

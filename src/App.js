@@ -11,8 +11,9 @@ function App() {
             <Header />
             <div className="container">
                 <Routes>
-                    <Route exact path="/" element={<Photos />}/>
-                    <Route path="/cart" element={<Cart />}/>
+                    {/* <Route exact path="/" element={<Photos />}/> */}
+                    <Route exact path="/cart" element={<Cart />}/>
+                    <Route  path="/cart-shop" element={<Photos />}/>
                 </Routes>
             </div>
         </div>  
